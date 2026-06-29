@@ -1,0 +1,626 @@
+/// Access
+"access" = "Zugriff";
+
+/// The end time must come after the start time.
+"accessScheduleInvalidTime" = "Die Endzeit muss nach der Startzeit liegen.";
+
+/// Access schedules
+"accessSchedules" = "Zugriffszeitpläne";
+
+/// Define the allowed hours for usage and restrict access outside those times.
+"accessSchedulesDescription" = "Legen Sie die erlaubten Nutzungszeiten fest und beschränken Sie den Zugriff außerhalb dieser Zeiten.";
+
+/// User will have access to no media unless it contains at least one allowed tag.
+"accessTagAllowDescription" = "Der Benutzer hat auf keine Medien Zugriff, sofern diese nicht mindestens einen erlaubten Tag enthalten.";
+
+/// User will have access to all media except when it contains any blocked tag.
+"accessTagBlockDescription" = "Der Benutzer hat auf alle Medien Zugriff, außer auf solche, die einen gesperrten Tag enthalten.";
+
+/// Access tags
+"accessTags" = "Zugriffs-Tags";
+
+/// Use tags to grant or restrict this user's access to media.
+"accessTagsDescription" = "Verwenden Sie Tags, um den Medienzugriff dieses Benutzers zu gewähren oder einzuschränken.";
+
+/// Add access schedule
+"addAccessSchedule" = "Zugriffszeitplan hinzufügen";
+
+/// Add access tag
+"addAccessTag" = "Zugriffs-Tag hinzufügen";
+
+/// Additional security access for users signed in to this device. This does not change any Jellyfin server user settings.
+"additionalSecurityAccessDescription" = "Zusätzlicher Sicherheitszugriff für Benutzer, die auf diesem Gerät angemeldet sind. Dies ändert keine Benutzereinstellungen des Jellyfin-Servers.";
+
+/// Add server
+"addServer" = "Server hinzufügen";
+
+/// Add trigger
+"addTrigger" = "Auslöser hinzufügen";
+
+/// Add user
+"addUser" = "Benutzer hinzufügen";
+
+/// Administrator
+"administrator" = "Administrator";
+
+/// View all past and present devices that have connected.
+"allDevicesDescription" = "Zeigen Sie alle früheren und aktuellen Geräte an, die sich verbunden haben.";
+
+/// Allow
+"allow" = "Erlauben";
+
+/// Allowed
+"allowed" = "Erlaubt";
+
+/// All servers
+"allServers" = "Alle Server";
+
+/// View and manage all registered users on the server, including their permissions and activity status.
+"allUsersDescription" = "Zeigen und verwalten Sie alle registrierten Benutzer auf dem Server, einschließlich ihrer Berechtigungen und ihres Aktivitätsstatus.";
+
+/// Any Wi-Fi Network
+"anyWifiNetwork" = "Beliebiges WLAN";
+
+/// API key copied
+"apiKeyCopied" = "API-Schlüssel kopiert";
+
+/// Your API key was copied to your clipboard!
+"apiKeyCopiedMessage" = "Ihr API-Schlüssel wurde in die Zwischenablage kopiert!";
+
+/// API keys
+"apiKeys" = "API-Schlüssel";
+
+/// API Keys
+"apiKeysCapitalized" = "API-Schlüssel";
+
+/// External applications require an API key to communicate with your server.
+"apiKeysDescription" = "Externe Anwendungen benötigen einen API-Schlüssel, um mit Ihrem Server zu kommunizieren.";
+
+/// Application name
+"applicationName" = "Anwendungsname";
+
+/// Authorize
+"authorize" = "Autorisieren";
+
+/// Auto switch
+"autoSwitch" = "Automatisch wechseln";
+
+/// Connections will automatically switch based on Wi-Fi or cellular connectivity and the ordering of the connections below.
+"autoSwitchDescription" = "Verbindungen wechseln automatisch je nach WLAN- oder Mobilfunkverbindung und der Reihenfolge der untenstehenden Verbindungen.";
+
+/// Tests your server connection to assess internet speed and adjust bandwidth automatically.
+"birateAutoDescription" = "Testet Ihre Serververbindung, um die Internetgeschwindigkeit zu ermitteln und die Bandbreite automatisch anzupassen.";
+
+/// Bitrate
+"bitrate" = "Bitrate";
+
+/// Default bitrate
+"bitrateDefault" = "Standard-Bitrate";
+
+/// Limits the internet bandwidth used during playback.
+"bitrateDefaultDescription" = "Begrenzt die während der Wiedergabe genutzte Internetbandbreite.";
+
+/// Maximizes bandwidth usage, up to %@, for each playback stream to ensure the highest quality.
+"bitrateMaxDescription" = "Maximiert die Bandbreitennutzung von bis zu %@ pro Wiedergabestream, um die höchste Qualität sicherzustellen.";
+
+/// Bitrate test
+"bitrateTest" = "Bitratentest";
+
+/// Longer tests are more accurate but may result in a delayed playback.
+"bitrateTestDisclaimer" = "Längere Tests sind genauer, können aber zu einer verzögerten Wiedergabe führen.";
+
+/// Block unrated items
+"blockUnratedItems" = "Nicht bewertete Elemente sperren";
+
+/// Block items from this user with no or unrecognized rating information.
+"blockUnratedItemsDescription" = "Sperrt für diesen Benutzer Elemente ohne oder mit nicht erkannten Bewertungsangaben.";
+
+/// Blocked
+"blocked" = "Gesperrt";
+
+/// Cannot connect to host
+"cannotConnectToHost" = "Verbindung zum Host nicht möglich";
+
+/// Capabilities
+"capabilities" = "Funktionen";
+
+/// Cellular
+"cellular" = "Mobilfunk";
+
+/// Change pin
+"changePin" = "PIN ändern";
+
+/// Client
+"client" = "Client";
+
+/// Are you sure you want to delete %@ and all of its connected users?
+"confirmDeleteServerAndUsers" = "Möchten Sie %@ und alle damit verbundenen Benutzer wirklich löschen?";
+
+/// Confirm new password
+"confirmNewPassword" = "Neues Passwort bestätigen";
+
+/// Confirm password
+"confirmPassword" = "Passwort bestätigen";
+
+/// Connect
+"connect" = "Verbinden";
+
+/// Connection
+"connection" = "Verbindung";
+
+/// Connection already exists
+"connectionAlreadyExists" = "Verbindung existiert bereits";
+
+/// Connection Failed
+"connectionFailed" = "Verbindung fehlgeschlagen";
+
+/// This connection does not point to the current server.
+"connectionServerMismatch" = "Diese Verbindung verweist nicht auf den aktuellen Server.";
+
+/// Connect to a Jellyfin server to get started
+"connectToJellyfinServerStart" = "Verbinden Sie sich mit einem Jellyfin-Server, um zu beginnen";
+
+/// Connect to server
+"connectToServer" = "Mit Server verbinden";
+
+/// Connections
+"connections" = "Verbindungen";
+
+/// Control other users
+"controlOtherUsers" = "Andere Benutzer steuern";
+
+/// Control shared devices
+"controlSharedDevices" = "Geteilte Geräte steuern";
+
+/// Create API Key
+"createAPIKeyCapitalized" = "API-Schlüssel erstellen";
+
+/// Enter the application name for the new API key.
+"createAPIKeyMessage" = "Geben Sie den Anwendungsnamen für den neuen API-Schlüssel ein.";
+
+/// Create & join groups
+"createAndJoinGroups" = "Gruppen erstellen & beitreten";
+
+/// Create a pin to sign in to %@ on this device
+"createPinForUser" = "Erstellen Sie eine PIN, um sich auf diesem Gerät bei %@ anzumelden";
+
+/// Current password
+"currentPassword" = "Aktuelles Passwort";
+
+/// Current URL
+"currentURL" = "Aktuelle URL";
+
+/// Manually set the maximum number of connections a user can have to the server.
+"customConnectionsDescription" = "Legen Sie manuell die maximale Anzahl an Verbindungen fest, die ein Benutzer zum Server haben kann.";
+
+/// Manually set the number of failed login attempts allowed before locking the user.
+"customFailedLoginDescription" = "Legen Sie manuell die Anzahl der zulässigen fehlgeschlagenen Anmeldeversuche fest, bevor der Benutzer gesperrt wird.";
+
+/// Custom failed logins
+"customFailedLogins" = "Benutzerdefinierte fehlgeschlagene Anmeldungen";
+
+/// Custom sessions
+"customSessions" = "Benutzerdefinierte Sitzungen";
+
+/// Dashboard
+"dashboard" = "Dashboard";
+
+/// Perform administrative tasks for your Jellyfin server.
+"dashboardDescription" = "Führen Sie administrative Aufgaben für Ihren Jellyfin-Server aus.";
+
+/// Day of week
+"dayOfWeek" = "Wochentag";
+
+/// Admins are locked out after 5 failed attempts. Non-admins are locked out after 3 attempts.
+"defaultFailedLoginDescription" = "Administratoren werden nach 5 fehlgeschlagenen Versuchen gesperrt. Nicht-Administratoren werden nach 3 Versuchen gesperrt.";
+
+/// Failed to delete device
+"deleteDeviceFailed" = "Gerät konnte nicht gelöscht werden";
+
+/// Cannot delete a session from the same device (%1$@).
+"deleteDeviceSelfDeletion" = "Eine Sitzung kann nicht vom selben Gerät (%1$@) gelöscht werden.";
+
+/// Are you sure you wish to delete this device? This session will be logged out.
+"deleteDeviceWarning" = "Möchten Sie dieses Gerät wirklich löschen? Diese Sitzung wird abgemeldet.";
+
+/// Are you sure you wish to delete all selected devices? All selected sessions will be logged out.
+"deleteSelectionDevicesWarning" = "Möchten Sie wirklich alle ausgewählten Geräte löschen? Alle ausgewählten Sitzungen werden abgemeldet.";
+
+/// Are you sure you wish to delete all selected users?
+"deleteSelectionUsersWarning" = "Möchten Sie wirklich alle ausgewählten Benutzer löschen?";
+
+/// Delete server
+"deleteServer" = "Server löschen";
+
+/// Failed to delete user
+"deleteUserFailed" = "Benutzer konnte nicht gelöscht werden";
+
+/// Are you sure you want to delete %d users?
+"deleteUserMultipleConfirmation" = "Möchten Sie %d Benutzer wirklich löschen?";
+
+/// Cannot delete a user from the same user (%1$@).
+"deleteUserSelfDeletion" = "Ein Benutzer kann nicht vom selben Benutzer (%1$@) gelöscht werden.";
+
+/// Are you sure you want to delete %@?
+"deleteUserSingleConfirmation" = "Möchten Sie %@ wirklich löschen?";
+
+/// Are you sure you wish to delete this user?
+"deleteUserWarning" = "Möchten Sie diesen Benutzer wirklich löschen?";
+
+/// Device access
+"deviceAccess" = "Gerätezugriff";
+
+/// Device authentication
+"deviceAuth" = "Geräteauthentifizierung";
+
+/// Device authentication failed
+"deviceAuthFailed" = "Geräteauthentifizierung fehlgeschlagen";
+
+/// Device profile
+"deviceProfile" = "Geräteprofil";
+
+/// Decide which media plays natively or requires server transcoding for compatibility.
+"deviceProfileDescription" = "Legen Sie fest, welche Medien nativ abgespielt werden oder zur Kompatibilität ein Transkodieren durch den Server erfordern.";
+
+/// Devices
+"devices" = "Geräte";
+
+/// Plays content in its original format. May cause playback issues on unsupported media types.
+"directDescription" = "Spielt Inhalte in ihrem Originalformat ab. Kann bei nicht unterstützten Medientypen zu Wiedergabeproblemen führen.";
+
+/// Direct play
+"directPlay" = "Direktwiedergabe";
+
+/// An error occurred during direct play
+"directPlayError" = "Bei der Direktwiedergabe ist ein Fehler aufgetreten";
+
+/// Direct Stream
+"directStream" = "Direktstream";
+
+/// This saves the URL as another connection for the existing server and makes it active.
+"duplicateServerConnectionFooter" = "Dadurch wird die URL als weitere Verbindung für den vorhandenen Server gespeichert und aktiviert.";
+
+/// %@ already exists. Add this URL as a new connection?
+"duplicateServerConnectionMessage" = "%@ existiert bereits. Diese URL als neue Verbindung hinzufügen?";
+
+/// Duplicate user
+"duplicateUser" = "Benutzer duplizieren";
+
+/// %@ is already saved
+"duplicateUserSaved" = "%@ ist bereits gespeichert";
+
+/// Edit server
+"editServer" = "Server bearbeiten";
+
+/// Edit users
+"editUsers" = "Benutzer bearbeiten";
+
+/// Enable all devices
+"enableAllDevices" = "Alle Geräte aktivieren";
+
+/// Enable all libraries
+"enableAllLibraries" = "Alle Bibliotheken aktivieren";
+
+/// Enter custom bitrate in Mbps
+"enterCustomBitrate" = "Benutzerdefinierte Bitrate in Mbit/s eingeben";
+
+/// Enter custom failed logins limit
+"enterCustomFailedLogins" = "Benutzerdefiniertes Limit für fehlgeschlagene Anmeldungen eingeben";
+
+/// Enter custom max sessions
+"enterCustomMaxSessions" = "Benutzerdefinierte maximale Sitzungen eingeben";
+
+/// Enter pin for %@
+"enterPinForUser" = "PIN für %@ eingeben";
+
+/// Every %1$@
+"everyInterval" = "Alle %1$@";
+
+/// Failed to delete item at index %1$@: %2$@
+"failedDeletionAtIndexError" = "Element an Index %1$@ konnte nicht gelöscht werden: %2$@";
+
+/// Failed logins
+"failedLogins" = "Fehlgeschlagene Anmeldungen";
+
+/// Force remote media transcoding
+"forceRemoteTranscoding" = "Transkodieren von Remote-Medien erzwingen";
+
+/// Hide user from login screen
+"hideUserFromLoginScreen" = "Benutzer auf dem Anmeldebildschirm ausblenden";
+
+/// Incorrect pin for %@
+"incorrectPinForUser" = "Falsche PIN für %@";
+
+/// Interval
+"interval" = "Intervall";
+
+/// Join groups
+"joinGroups" = "Gruppen beitreten";
+
+/// Last run
+"lastRun" = "Letzte Ausführung";
+
+/// Last ran %@
+"lastRunTime" = "Zuletzt ausgeführt %@";
+
+/// Last seen
+"lastSeen" = "Zuletzt gesehen";
+
+/// Live TV access
+"liveTVAccess" = "Zugriff auf Live-TV";
+
+/// Live TV Access
+"liveTVAccessCapitalized" = "Zugriff auf Live-TV";
+
+/// Live TV recording management
+"liveTVRecordingManagement" = "Verwaltung von Live-TV-Aufnahmen";
+
+/// Local servers
+"localServers" = "Lokale Server";
+
+/// Locked users
+"lockedUsers" = "Gesperrte Benutzer";
+
+/// Maximum bitrate
+"maximumBitrate" = "Maximale Bitrate";
+
+/// Limits the total number of connections a user can have to the server.
+"maximumConnectionsDescription" = "Begrenzt die Gesamtzahl der Verbindungen, die ein Benutzer zum Server haben kann.";
+
+/// Maximum failed login policy
+"maximumFailedLoginPolicy" = "Richtlinie für maximale fehlgeschlagene Anmeldungen";
+
+/// Sets the maximum failed login attempts before a user is locked out.
+"maximumFailedLoginPolicyDescription" = "Legt die maximale Anzahl fehlgeschlagener Anmeldeversuche fest, bevor ein Benutzer gesperrt wird.";
+
+/// Locked users must be re-enabled by an Administrator.
+"maximumFailedLoginPolicyReenable" = "Gesperrte Benutzer müssen von einem Administrator wieder freigeschaltet werden.";
+
+/// Maximum remote bitrate
+"maximumRemoteBitrate" = "Maximale Remote-Bitrate";
+
+/// Maximum sessions
+"maximumSessions" = "Maximale Sitzungen";
+
+/// Maximum sessions policy
+"maximumSessionsPolicy" = "Richtlinie für maximale Sitzungen";
+
+/// Maximum parental rating
+"maxParentalRating" = "Maximale Altersfreigabe";
+
+/// Content with a higher rating will be hidden from this user.
+"maxParentalRatingDescription" = "Inhalte mit einer höheren Freigabe werden diesem Benutzer ausgeblendet.";
+
+/// Media access
+"mediaAccess" = "Medienzugriff";
+
+/// Media downloads
+"mediaDownloads" = "Medien-Downloads";
+
+/// Never run
+"neverRun" = "Nie ausgeführt";
+
+/// New password
+"newPassword" = "Neues Passwort";
+
+/// New user
+"newUser" = "Neuer Benutzer";
+
+/// No activity
+"noActivity" = "Keine Aktivität";
+
+/// No profiles defined. Playback issues may occur.
+"noDeviceProfileWarning" = "Keine Profile definiert. Es können Wiedergabeprobleme auftreten.";
+
+/// No local servers found
+"noLocalServersFound" = "Keine lokalen Server gefunden";
+
+/// No public users
+"noPublicUsers" = "Keine öffentlichen Benutzer";
+
+/// No session
+"noSession" = "Keine Sitzung";
+
+/// Parental controls
+"parentalControls" = "Kindersicherung";
+
+/// Password
+"password" = "Passwort";
+
+/// Changes the Jellyfin server user password. This does not change any Swiftfin settings.
+"passwordChangeWarning" = "Ändert das Benutzerpasswort des Jellyfin-Servers. Dies ändert keine Swiftfin-Einstellungen.";
+
+/// User password has been changed.
+"passwordChangedMessage" = "Das Benutzerpasswort wurde geändert.";
+
+/// New passwords do not match.
+"passwordsDoNotMatch" = "Die neuen Passwörter stimmen nicht überein.";
+
+/// Error requesting %@ permission: %@
+"permissionRequestError" = "Fehler beim Anfordern der Berechtigung %@: %@";
+
+/// Permissions
+"permissions" = "Berechtigungen";
+
+/// Public users
+"publicUsers" = "Öffentliche Benutzer";
+
+/// Quick Connect
+"quickConnect" = "Quick Connect";
+
+/// Quick Connect code
+"quickConnectCode" = "Quick-Connect-Code";
+
+/// Enter the 6 digit code from your other device.
+"quickConnectCodeInstruction" = "Geben Sie den 6-stelligen Code von Ihrem anderen Gerät ein.";
+
+/// Open the Jellyfin app on your phone or web browser and sign in with your account
+"quickConnectStep1" = "Öffnen Sie die Jellyfin-App auf Ihrem Telefon oder im Webbrowser und melden Sie sich mit Ihrem Konto an";
+
+/// Open the user menu and go to the Quick Connect page
+"quickConnectStep2" = "Öffnen Sie das Benutzermenü und rufen Sie die Quick-Connect-Seite auf";
+
+/// Enter the following code:
+"quickConnectStep3" = "Geben Sie den folgenden Code ein:";
+
+/// Authorizing Quick Connect successful. Please continue on your other device.
+"quickConnectSuccessMessage" = "Quick Connect wurde erfolgreich autorisiert. Bitte fahren Sie auf Ihrem anderen Gerät fort.";
+
+/// This user will be authenticated to the other device.
+"quickConnectUserDisclaimer" = "Dieser Benutzer wird auf dem anderen Gerät authentifiziert.";
+
+/// Remote connections
+"remoteConnections" = "Remote-Verbindungen";
+
+/// Remote control
+"remoteControl" = "Fernsteuerung";
+
+/// Require device authentication when signing in to the user.
+"requireDeviceAuthDescription" = "Erfordert eine Geräteauthentifizierung bei der Anmeldung als Benutzer.";
+
+/// Require device authentication to sign in to %@ on this device.
+"requireDeviceAuthForUser" = "Erfordert eine Geräteauthentifizierung, um sich auf diesem Gerät bei %@ anzumelden.";
+
+/// Require a local pin when signing in to the user. This pin is unrecoverable.
+"requirePinDescription" = "Erfordert eine lokale PIN bei der Anmeldung als Benutzer. Diese PIN kann nicht wiederhergestellt werden.";
+
+/// Restart server
+"restartServer" = "Server neu starten";
+
+/// Are you sure you want to restart the server?
+"restartWarning" = "Möchten Sie den Server wirklich neu starten?";
+
+/// Save the user to this device without any local authentication.
+"saveUserWithoutAuthDescription" = "Speichert den Benutzer ohne lokale Authentifizierung auf diesem Gerät.";
+
+/// Select server
+"selectServer" = "Server auswählen";
+
+/// Server
+"server" = "Server";
+
+/// Server logs
+"serverLogs" = "Serverprotokolle";
+
+/// Swiftfin requires Jellyfin version %@ or higher.
+"serverVersionWarning" = "Swiftfin erfordert Jellyfin-Version %@ oder höher.";
+
+/// Servers
+"servers" = "Server";
+
+/// Session
+"session" = "Sitzung";
+
+/// Sessions
+"sessions" = "Sitzungen";
+
+/// Set a hint when prompting for the pin.
+"setPinHintDescription" = "Legen Sie einen Hinweis fest, der bei der PIN-Abfrage angezeigt wird.";
+
+/// Show progress
+"showProgress" = "Fortschritt anzeigen";
+
+/// Shutdown server
+"shutdownServer" = "Server herunterfahren";
+
+/// Are you sure you want to shutdown the server?
+"shutdownWarning" = "Möchten Sie den Server wirklich herunterfahren?";
+
+/// Sign in
+"signIn" = "Anmelden";
+
+/// Sign in to %s
+"signInToServer" = "Bei %s anmelden";
+
+/// Sign out on background
+"signoutBackground" = "Im Hintergrund abmelden";
+
+/// Signs out the last user when Swiftfin has been in the background without media playback after some time.
+"signoutBackgroundFooter" = "Meldet den letzten Benutzer ab, wenn Swiftfin ohne Medienwiedergabe einige Zeit im Hintergrund war.";
+
+/// Sign out on close
+"signoutClose" = "Beim Schließen abmelden";
+
+/// Signs out the last user when Swiftfin has been force closed.
+"signoutCloseFooter" = "Meldet den letzten Benutzer ab, wenn Swiftfin gewaltsam beendet wurde.";
+
+/// Switch user
+"switchUser" = "Benutzer wechseln";
+
+/// Task
+"task" = "Aufgabe";
+
+/// Aborted
+"taskAborted" = "Abgebrochen";
+
+/// Cancelled
+"taskCancelled" = "Abgebrochen";
+
+/// Completed
+"taskCompleted" = "Abgeschlossen";
+
+/// Failed
+"taskFailed" = "Fehlgeschlagen";
+
+/// Sets the duration (in minutes) in between task triggers.
+"taskTriggerInterval" = "Legt die Dauer (in Minuten) zwischen den Aufgabenauslösern fest.";
+
+/// Sets the maximum runtime (in hours) for this task trigger.
+"taskTriggerTimeLimit" = "Legt die maximale Laufzeit (in Stunden) für diesen Aufgabenauslöser fest.";
+
+/// Tasks
+"tasks" = "Aufgaben";
+
+/// Tasks are operations that are scheduled to run periodically or can be triggered manually.
+"tasksDescription" = "Aufgaben sind Vorgänge, die zur regelmäßigen Ausführung geplant sind oder manuell ausgelöst werden können.";
+
+/// Time limit
+"timeLimit" = "Zeitlimit";
+
+/// Time limit: %1$@
+"timeLimitLabelWithValue" = "Zeitlimit: %1$@";
+
+/// Trigger already exists
+"triggerAlreadyExists" = "Auslöser existiert bereits";
+
+/// Triggers
+"triggers" = "Auslöser";
+
+/// Unauthorized
+"unauthorized" = "Nicht autorisiert";
+
+/// Unauthorized user
+"unauthorizedUser" = "Nicht autorisierter Benutzer";
+
+/// The user can connect to the server without any limits.
+"unlimitedConnectionsDescription" = "Der Benutzer kann sich ohne Einschränkungen mit dem Server verbinden.";
+
+/// Allows unlimited failed login attempts without locking the user.
+"unlimitedFailedLoginDescription" = "Erlaubt unbegrenzt fehlgeschlagene Anmeldeversuche, ohne den Benutzer zu sperren.";
+
+/// Use as transcoding profile
+"useAsTranscodingProfile" = "Als Transkodierungsprofil verwenden";
+
+/// User
+"user" = "Benutzer";
+
+/// This user will require device authentication.
+"userDeviceAuthRequiredDescription" = "Dieser Benutzer benötigt eine Geräteauthentifizierung.";
+
+/// Username
+"username" = "Benutzername";
+
+/// A username is required
+"usernameRequired" = "Ein Benutzername ist erforderlich";
+
+/// This user will require a pin.
+"userPinRequiredDescription" = "Dieser Benutzer benötigt eine PIN.";
+
+/// Users
+"users" = "Benutzer";
+
+/// Wi-Fi
+"wifi" = "WLAN";
+
+/// Wi-Fi Name
+"wifiName" = "WLAN-Name";
