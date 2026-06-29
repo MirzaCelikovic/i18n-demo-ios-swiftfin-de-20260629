@@ -1,0 +1,626 @@
+/// Access
+"access" = "Access";
+
+/// The end time must come after the start time.
+"accessScheduleInvalidTime" = "The end time must come after the start time.";
+
+/// Access schedules
+"accessSchedules" = "Access schedules";
+
+/// Define the allowed hours for usage and restrict access outside those times.
+"accessSchedulesDescription" = "Define the allowed hours for usage and restrict access outside those times.";
+
+/// User will have access to no media unless it contains at least one allowed tag.
+"accessTagAllowDescription" = "User will have access to no media unless it contains at least one allowed tag.";
+
+/// User will have access to all media except when it contains any blocked tag.
+"accessTagBlockDescription" = "User will have access to all media except when it contains any blocked tag.";
+
+/// Access tags
+"accessTags" = "Access tags";
+
+/// Use tags to grant or restrict this user's access to media.
+"accessTagsDescription" = "Use tags to grant or restrict this user's access to media.";
+
+/// Add access schedule
+"addAccessSchedule" = "Add access schedule";
+
+/// Add access tag
+"addAccessTag" = "Add access tag";
+
+/// Additional security access for users signed in to this device. This does not change any Jellyfin server user settings.
+"additionalSecurityAccessDescription" = "Additional security access for users signed in to this device. This does not change any Jellyfin server user settings.";
+
+/// Add server
+"addServer" = "Add server";
+
+/// Add trigger
+"addTrigger" = "Add trigger";
+
+/// Add user
+"addUser" = "Add user";
+
+/// Administrator
+"administrator" = "Administrator";
+
+/// View all past and present devices that have connected.
+"allDevicesDescription" = "View all past and present devices that have connected.";
+
+/// Allow
+"allow" = "Allow";
+
+/// Allowed
+"allowed" = "Allowed";
+
+/// All servers
+"allServers" = "All servers";
+
+/// View and manage all registered users on the server, including their permissions and activity status.
+"allUsersDescription" = "View and manage all registered users on the server, including their permissions and activity status.";
+
+/// Any Wi-Fi Network
+"anyWifiNetwork" = "Any Wi-Fi Network";
+
+/// API key copied
+"apiKeyCopied" = "API key copied";
+
+/// Your API key was copied to your clipboard!
+"apiKeyCopiedMessage" = "Your API key was copied to your clipboard!";
+
+/// API keys
+"apiKeys" = "API keys";
+
+/// API Keys
+"apiKeysCapitalized" = "API Keys";
+
+/// External applications require an API key to communicate with your server.
+"apiKeysDescription" = "External applications require an API key to communicate with your server.";
+
+/// Application name
+"applicationName" = "Application name";
+
+/// Authorize
+"authorize" = "Authorize";
+
+/// Auto switch
+"autoSwitch" = "Auto switch";
+
+/// Connections will automatically switch based on Wi-Fi or cellular connectivity and the ordering of the connections below.
+"autoSwitchDescription" = "Connections will automatically switch based on Wi-Fi or cellular connectivity and the ordering of the connections below.";
+
+/// Tests your server connection to assess internet speed and adjust bandwidth automatically.
+"birateAutoDescription" = "Tests your server connection to assess internet speed and adjust bandwidth automatically.";
+
+/// Bitrate
+"bitrate" = "Bitrate";
+
+/// Default bitrate
+"bitrateDefault" = "Default bitrate";
+
+/// Limits the internet bandwidth used during playback.
+"bitrateDefaultDescription" = "Limits the internet bandwidth used during playback.";
+
+/// Maximizes bandwidth usage, up to %@, for each playback stream to ensure the highest quality.
+"bitrateMaxDescription" = "Maximizes bandwidth usage, up to %@, for each playback stream to ensure the highest quality.";
+
+/// Bitrate test
+"bitrateTest" = "Bitrate test";
+
+/// Longer tests are more accurate but may result in a delayed playback.
+"bitrateTestDisclaimer" = "Longer tests are more accurate but may result in a delayed playback.";
+
+/// Blocked
+"blocked" = "Blocked";
+
+/// Block unrated items
+"blockUnratedItems" = "Block unrated items";
+
+/// Block items from this user with no or unrecognized rating information.
+"blockUnratedItemsDescription" = "Block items from this user with no or unrecognized rating information.";
+
+/// Cannot connect to host
+"cannotConnectToHost" = "Cannot connect to host";
+
+/// Capabilities
+"capabilities" = "Capabilities";
+
+/// Cellular
+"cellular" = "Cellular";
+
+/// Change pin
+"changePin" = "Change pin";
+
+/// Client
+"client" = "Client";
+
+/// Are you sure you want to delete %@ and all of its connected users?
+"confirmDeleteServerAndUsers" = "Are you sure you want to delete %@ and all of its connected users?";
+
+/// Confirm new password
+"confirmNewPassword" = "Confirm new password";
+
+/// Confirm password
+"confirmPassword" = "Confirm password";
+
+/// Connect
+"connect" = "Connect";
+
+/// Connection
+"connection" = "Connection";
+
+/// Connection already exists
+"connectionAlreadyExists" = "Connection already exists";
+
+/// Connection Failed
+"connectionFailed" = "Connection Failed";
+
+/// Connections
+"connections" = "Connections";
+
+/// This connection does not point to the current server.
+"connectionServerMismatch" = "This connection does not point to the current server.";
+
+/// Connect to a Jellyfin server to get started
+"connectToJellyfinServerStart" = "Connect to a Jellyfin server to get started";
+
+/// Connect to server
+"connectToServer" = "Connect to server";
+
+/// Control other users
+"controlOtherUsers" = "Control other users";
+
+/// Control shared devices
+"controlSharedDevices" = "Control shared devices";
+
+/// Create & join groups
+"createAndJoinGroups" = "Create & join groups";
+
+/// Create API Key
+"createAPIKeyCapitalized" = "Create API Key";
+
+/// Enter the application name for the new API key.
+"createAPIKeyMessage" = "Enter the application name for the new API key.";
+
+/// Create a pin to sign in to %@ on this device
+"createPinForUser" = "Create a pin to sign in to %@ on this device";
+
+/// Current password
+"currentPassword" = "Current password";
+
+/// Current URL
+"currentURL" = "Current URL";
+
+/// Manually set the maximum number of connections a user can have to the server.
+"customConnectionsDescription" = "Manually set the maximum number of connections a user can have to the server.";
+
+/// Manually set the number of failed login attempts allowed before locking the user.
+"customFailedLoginDescription" = "Manually set the number of failed login attempts allowed before locking the user.";
+
+/// Custom failed logins
+"customFailedLogins" = "Custom failed logins";
+
+/// Custom sessions
+"customSessions" = "Custom sessions";
+
+/// Dashboard
+"dashboard" = "Dashboard";
+
+/// Perform administrative tasks for your Jellyfin server.
+"dashboardDescription" = "Perform administrative tasks for your Jellyfin server.";
+
+/// Day of week
+"dayOfWeek" = "Day of week";
+
+/// Admins are locked out after 5 failed attempts. Non-admins are locked out after 3 attempts.
+"defaultFailedLoginDescription" = "Admins are locked out after 5 failed attempts. Non-admins are locked out after 3 attempts.";
+
+/// Failed to delete device
+"deleteDeviceFailed" = "Failed to delete device";
+
+/// Cannot delete a session from the same device (%1$@).
+"deleteDeviceSelfDeletion" = "Cannot delete a session from the same device (%1$@).";
+
+/// Are you sure you wish to delete this device? This session will be logged out.
+"deleteDeviceWarning" = "Are you sure you wish to delete this device? This session will be logged out.";
+
+/// Are you sure you wish to delete all selected devices? All selected sessions will be logged out.
+"deleteSelectionDevicesWarning" = "Are you sure you wish to delete all selected devices? All selected sessions will be logged out.";
+
+/// Are you sure you wish to delete all selected users?
+"deleteSelectionUsersWarning" = "Are you sure you wish to delete all selected users?";
+
+/// Delete server
+"deleteServer" = "Delete server";
+
+/// Failed to delete user
+"deleteUserFailed" = "Failed to delete user";
+
+/// Are you sure you want to delete %d users?
+"deleteUserMultipleConfirmation" = "Are you sure you want to delete %d users?";
+
+/// Cannot delete a user from the same user (%1$@).
+"deleteUserSelfDeletion" = "Cannot delete a user from the same user (%1$@).";
+
+/// Are you sure you want to delete %@?
+"deleteUserSingleConfirmation" = "Are you sure you want to delete %@?";
+
+/// Are you sure you wish to delete this user?
+"deleteUserWarning" = "Are you sure you wish to delete this user?";
+
+/// Device access
+"deviceAccess" = "Device access";
+
+/// Device authentication
+"deviceAuth" = "Device authentication";
+
+/// Device authentication failed
+"deviceAuthFailed" = "Device authentication failed";
+
+/// Device profile
+"deviceProfile" = "Device profile";
+
+/// Decide which media plays natively or requires server transcoding for compatibility.
+"deviceProfileDescription" = "Decide which media plays natively or requires server transcoding for compatibility.";
+
+/// Devices
+"devices" = "Devices";
+
+/// Plays content in its original format. May cause playback issues on unsupported media types.
+"directDescription" = "Plays content in its original format. May cause playback issues on unsupported media types.";
+
+/// Direct play
+"directPlay" = "Direct play";
+
+/// An error occurred during direct play
+"directPlayError" = "An error occurred during direct play";
+
+/// Direct Stream
+"directStream" = "Direct Stream";
+
+/// This saves the URL as another connection for the existing server and makes it active.
+"duplicateServerConnectionFooter" = "This saves the URL as another connection for the existing server and makes it active.";
+
+/// %@ already exists. Add this URL as a new connection?
+"duplicateServerConnectionMessage" = "%@ already exists. Add this URL as a new connection?";
+
+/// Duplicate user
+"duplicateUser" = "Duplicate user";
+
+/// %@ is already saved
+"duplicateUserSaved" = "%@ is already saved";
+
+/// Edit server
+"editServer" = "Edit server";
+
+/// Edit users
+"editUsers" = "Edit users";
+
+/// Enable all devices
+"enableAllDevices" = "Enable all devices";
+
+/// Enable all libraries
+"enableAllLibraries" = "Enable all libraries";
+
+/// Enter custom bitrate in Mbps
+"enterCustomBitrate" = "Enter custom bitrate in Mbps";
+
+/// Enter custom failed logins limit
+"enterCustomFailedLogins" = "Enter custom failed logins limit";
+
+/// Enter custom max sessions
+"enterCustomMaxSessions" = "Enter custom max sessions";
+
+/// Enter pin for %@
+"enterPinForUser" = "Enter pin for %@";
+
+/// Every %1$@
+"everyInterval" = "Every %1$@";
+
+/// Failed to delete item at index %1$@: %2$@
+"failedDeletionAtIndexError" = "Failed to delete item at index %1$@: %2$@";
+
+/// Failed logins
+"failedLogins" = "Failed logins";
+
+/// Force remote media transcoding
+"forceRemoteTranscoding" = "Force remote media transcoding";
+
+/// Hide user from login screen
+"hideUserFromLoginScreen" = "Hide user from login screen";
+
+/// Incorrect pin for %@
+"incorrectPinForUser" = "Incorrect pin for %@";
+
+/// Interval
+"interval" = "Interval";
+
+/// Join groups
+"joinGroups" = "Join groups";
+
+/// Last run
+"lastRun" = "Last run";
+
+/// Last ran %@
+"lastRunTime" = "Last ran %@";
+
+/// Last seen
+"lastSeen" = "Last seen";
+
+/// Live TV access
+"liveTVAccess" = "Live TV access";
+
+/// Live TV Access
+"liveTVAccessCapitalized" = "Live TV Access";
+
+/// Live TV recording management
+"liveTVRecordingManagement" = "Live TV recording management";
+
+/// Local servers
+"localServers" = "Local servers";
+
+/// Locked users
+"lockedUsers" = "Locked users";
+
+/// Maximum bitrate
+"maximumBitrate" = "Maximum bitrate";
+
+/// Limits the total number of connections a user can have to the server.
+"maximumConnectionsDescription" = "Limits the total number of connections a user can have to the server.";
+
+/// Maximum failed login policy
+"maximumFailedLoginPolicy" = "Maximum failed login policy";
+
+/// Sets the maximum failed login attempts before a user is locked out.
+"maximumFailedLoginPolicyDescription" = "Sets the maximum failed login attempts before a user is locked out.";
+
+/// Locked users must be re-enabled by an Administrator.
+"maximumFailedLoginPolicyReenable" = "Locked users must be re-enabled by an Administrator.";
+
+/// Maximum remote bitrate
+"maximumRemoteBitrate" = "Maximum remote bitrate";
+
+/// Maximum sessions
+"maximumSessions" = "Maximum sessions";
+
+/// Maximum sessions policy
+"maximumSessionsPolicy" = "Maximum sessions policy";
+
+/// Maximum parental rating
+"maxParentalRating" = "Maximum parental rating";
+
+/// Content with a higher rating will be hidden from this user.
+"maxParentalRatingDescription" = "Content with a higher rating will be hidden from this user.";
+
+/// Media access
+"mediaAccess" = "Media access";
+
+/// Media downloads
+"mediaDownloads" = "Media downloads";
+
+/// Never run
+"neverRun" = "Never run";
+
+/// New password
+"newPassword" = "New password";
+
+/// New user
+"newUser" = "New user";
+
+/// No activity
+"noActivity" = "No activity";
+
+/// No profiles defined. Playback issues may occur.
+"noDeviceProfileWarning" = "No profiles defined. Playback issues may occur.";
+
+/// No local servers found
+"noLocalServersFound" = "No local servers found";
+
+/// No public users
+"noPublicUsers" = "No public users";
+
+/// No session
+"noSession" = "No session";
+
+/// Parental controls
+"parentalControls" = "Parental controls";
+
+/// Password
+"password" = "Password";
+
+/// User password has been changed.
+"passwordChangedMessage" = "User password has been changed.";
+
+/// Changes the Jellyfin server user password. This does not change any Swiftfin settings.
+"passwordChangeWarning" = "Changes the Jellyfin server user password. This does not change any Swiftfin settings.";
+
+/// New passwords do not match.
+"passwordsDoNotMatch" = "New passwords do not match.";
+
+/// Error requesting %@ permission: %@
+"permissionRequestError" = "Error requesting %@ permission: %@";
+
+/// Permissions
+"permissions" = "Permissions";
+
+/// Public users
+"publicUsers" = "Public users";
+
+/// Quick Connect
+"quickConnect" = "Quick Connect";
+
+/// Quick Connect code
+"quickConnectCode" = "Quick Connect code";
+
+/// Enter the 6 digit code from your other device.
+"quickConnectCodeInstruction" = "Enter the 6 digit code from your other device.";
+
+/// Open the Jellyfin app on your phone or web browser and sign in with your account
+"quickConnectStep1" = "Open the Jellyfin app on your phone or web browser and sign in with your account";
+
+/// Open the user menu and go to the Quick Connect page
+"quickConnectStep2" = "Open the user menu and go to the Quick Connect page";
+
+/// Enter the following code:
+"quickConnectStep3" = "Enter the following code:";
+
+/// Authorizing Quick Connect successful. Please continue on your other device.
+"quickConnectSuccessMessage" = "Authorizing Quick Connect successful. Please continue on your other device.";
+
+/// This user will be authenticated to the other device.
+"quickConnectUserDisclaimer" = "This user will be authenticated to the other device.";
+
+/// Remote connections
+"remoteConnections" = "Remote connections";
+
+/// Remote control
+"remoteControl" = "Remote control";
+
+/// Require device authentication when signing in to the user.
+"requireDeviceAuthDescription" = "Require device authentication when signing in to the user.";
+
+/// Require device authentication to sign in to %@ on this device.
+"requireDeviceAuthForUser" = "Require device authentication to sign in to %@ on this device.";
+
+/// Require a local pin when signing in to the user. This pin is unrecoverable.
+"requirePinDescription" = "Require a local pin when signing in to the user. This pin is unrecoverable.";
+
+/// Restart server
+"restartServer" = "Restart server";
+
+/// Are you sure you want to restart the server?
+"restartWarning" = "Are you sure you want to restart the server?";
+
+/// Save the user to this device without any local authentication.
+"saveUserWithoutAuthDescription" = "Save the user to this device without any local authentication.";
+
+/// Select server
+"selectServer" = "Select server";
+
+/// Server
+"server" = "Server";
+
+/// Server logs
+"serverLogs" = "Server logs";
+
+/// Servers
+"servers" = "Servers";
+
+/// Swiftfin requires Jellyfin version %@ or higher.
+"serverVersionWarning" = "Swiftfin requires Jellyfin version %@ or higher.";
+
+/// Session
+"session" = "Session";
+
+/// Sessions
+"sessions" = "Sessions";
+
+/// Set a hint when prompting for the pin.
+"setPinHintDescription" = "Set a hint when prompting for the pin.";
+
+/// Show progress
+"showProgress" = "Show progress";
+
+/// Shutdown server
+"shutdownServer" = "Shutdown server";
+
+/// Are you sure you want to shutdown the server?
+"shutdownWarning" = "Are you sure you want to shutdown the server?";
+
+/// Sign in
+"signIn" = "Sign in";
+
+/// Sign in to %s
+"signInToServer" = "Sign in to %s";
+
+/// Sign out on background
+"signoutBackground" = "Sign out on background";
+
+/// Signs out the last user when Swiftfin has been in the background without media playback after some time.
+"signoutBackgroundFooter" = "Signs out the last user when Swiftfin has been in the background without media playback after some time.";
+
+/// Sign out on close
+"signoutClose" = "Sign out on close";
+
+/// Signs out the last user when Swiftfin has been force closed.
+"signoutCloseFooter" = "Signs out the last user when Swiftfin has been force closed.";
+
+/// Switch user
+"switchUser" = "Switch user";
+
+/// Task
+"task" = "Task";
+
+/// Aborted
+"taskAborted" = "Aborted";
+
+/// Cancelled
+"taskCancelled" = "Cancelled";
+
+/// Completed
+"taskCompleted" = "Completed";
+
+/// Failed
+"taskFailed" = "Failed";
+
+/// Tasks
+"tasks" = "Tasks";
+
+/// Tasks are operations that are scheduled to run periodically or can be triggered manually.
+"tasksDescription" = "Tasks are operations that are scheduled to run periodically or can be triggered manually.";
+
+/// Sets the duration (in minutes) in between task triggers.
+"taskTriggerInterval" = "Sets the duration (in minutes) in between task triggers.";
+
+/// Sets the maximum runtime (in hours) for this task trigger.
+"taskTriggerTimeLimit" = "Sets the maximum runtime (in hours) for this task trigger.";
+
+/// Time limit
+"timeLimit" = "Time limit";
+
+/// Time limit: %1$@
+"timeLimitLabelWithValue" = "Time limit: %1$@";
+
+/// Trigger already exists
+"triggerAlreadyExists" = "Trigger already exists";
+
+/// Triggers
+"triggers" = "Triggers";
+
+/// Unauthorized
+"unauthorized" = "Unauthorized";
+
+/// Unauthorized user
+"unauthorizedUser" = "Unauthorized user";
+
+/// The user can connect to the server without any limits.
+"unlimitedConnectionsDescription" = "The user can connect to the server without any limits.";
+
+/// Allows unlimited failed login attempts without locking the user.
+"unlimitedFailedLoginDescription" = "Allows unlimited failed login attempts without locking the user.";
+
+/// Use as transcoding profile
+"useAsTranscodingProfile" = "Use as transcoding profile";
+
+/// User
+"user" = "User";
+
+/// This user will require device authentication.
+"userDeviceAuthRequiredDescription" = "This user will require device authentication.";
+
+/// Username
+"username" = "Username";
+
+/// A username is required
+"usernameRequired" = "A username is required";
+
+/// This user will require a pin.
+"userPinRequiredDescription" = "This user will require a pin.";
+
+/// Users
+"users" = "Users";
+
+/// Wi-Fi
+"wifi" = "Wi-Fi";
+
+/// Wi-Fi Name
+"wifiName" = "Wi-Fi Name";
